@@ -1,0 +1,28 @@
+{
+  "name": "animais-fantasticos pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "npx eslint js/**",
+    "build": "webpack --mode production",
+    "dev": " webpack --mode development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-runtime": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "eslint": "^9.38.0",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.28.4"
+  }
+}
