@@ -64,6 +64,8 @@ export class Slide {
   }
   // Essa funcao  muda o slide  para o ponto centrar
   changeSlideOnEnd() {
+    // Antes de inicirmos a mudanca verificamos e os valores da distancia e os valos  a index.next nao sao undefined
+    // O que significa  os index nao pode pode ultra passar os os lenght
     if (this.distance.movement > 120 && this.index.next !== undefined) {
       this.activeNextSlide();
     } else if (this.distance.movement < -120 && this.index.prev !== undefined) {
