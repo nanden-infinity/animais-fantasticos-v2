@@ -75,6 +75,7 @@
   outline-offset: 2px;
   outline-color: #e54;
   border-color: transparent;
+  border-radius: 0px;
 }
 
 .modal button[type="submit"] {
